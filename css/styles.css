@@ -458,7 +458,7 @@ h3.menu-item-tile{
     /* HOME PAGE */
     /* SECTIONS */
     #menu-tile, #specials-tile{
-        width: 350px;
+        width: 343px;
         margin: 10px auto 7px;
     }
     
@@ -470,6 +470,12 @@ h3.menu-item-tile{
         padding-left: 15px;
         float: left;
         width: 100%;
-    }
-        
+    }        
+}
+
+@media(min-width: 359px) and (max-width: 478.9px){
+    /* SECTIONS */
+    #menu-tile, #specials-tile{
+        width: 330px;
+        margin: 10px auto 7px;
 }
