@@ -350,9 +350,10 @@ h3.menu-item-tile{
 /******** Extra Small devices only ******/
 @media (max-width: 767.9px){
 	/* Header */
+	/* Remove to fix roll hamburger menu
 	#header-nav{
 		height: 105px;
-	}
+	}*/
 	.navbar-brand{
 		padding-top: 10px;
 		height: 105px;
